@@ -20,6 +20,16 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JBDMZ7YCF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1JBDMZ7YCF');
+</script>
+
   <meta property="og:type" content="website">
 <meta property="og:title" content="Rubber Duck">
 <meta property="og:url" content="http://example.com/">
@@ -43,6 +53,15 @@
 
   <title>Rubber Duck</title>
   
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JBDMZ7YCF"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1JBDMZ7YCF');
+      }
+    </script>
 
 
 
@@ -161,7 +180,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/first-article/" class="post-title-link" itemprop="url">first-article</a>
+            <a href="/first-article/" class="post-title-link" itemprop="url">CS50 W0</a>
         </h2>
 
         <div class="post-meta">
@@ -172,7 +191,7 @@
               <span class="post-meta-item-text">發表於</span>
               
 
-              <time title="創建時間：2022-06-18 21:21:49 / 修改時間：21:31:45" itemprop="dateCreated datePublished" datetime="2022-06-18T21:21:49+08:00">2022-06-18</time>
+              <time title="創建時間：2022-06-18 21:21:49 / 修改時間：22:49:47" itemprop="dateCreated datePublished" datetime="2022-06-18T21:21:49+08:00">2022-06-18</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -180,11 +199,25 @@
               </span>
               <span class="post-meta-item-text">分類於</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Course/" itemprop="url" rel="index"><span itemprop="name">Course</span></a>
+                  <a href="/categories/CS50/" itemprop="url" rel="index"><span itemprop="name">CS50</span></a>
                 </span>
             </span>
 
           
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/first-article/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="first-article/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -195,81 +228,65 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h1><p>有點緊張 第一次寫文章 <strong>但是我不怕！</strong> 因為我很勇敢&gt;&lt;</p>
-<p><img src="/img.png" alt="範例圖片"></p>
+          <h1 id="Harvard-CS50-Week0"><a href="#Harvard-CS50-Week0" class="headerlink" title="Harvard CS50 Week0"></a>Harvard CS50 Week0</h1><p>Harvard CS50 是哈佛大學的通識課，主要是對 Computer Science 進行一個廣泛的介紹。<br>這堂課程是完全免費的，可以參考 eDX 的網址進行註冊。</p>
+<p>以 2022 Fall 的課程來說，分為 10 週的課程：</p>
+<table>
+<thead>
+<tr>
+<th align="center">週次</th>
+<th align="center">課程內容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Week 0</td>
+<td align="center">Scratch</td>
+</tr>
+<tr>
+<td align="center">Week 1</td>
+<td align="center">C</td>
+</tr>
+<tr>
+<td align="center">Week 2</td>
+<td align="center">Arrays</td>
+</tr>
+<tr>
+<td align="center">Week 3</td>
+<td align="center">Algorithms</td>
+</tr>
+<tr>
+<td align="center">Week 4</td>
+<td align="center">Memory</td>
+</tr>
+<tr>
+<td align="center">Week 5</td>
+<td align="center">Data Structures</td>
+</tr>
+<tr>
+<td align="center">Week 6</td>
+<td align="center">Python</td>
+</tr>
+<tr>
+<td align="center">Week 7</td>
+<td align="center">SQL</td>
+</tr>
+<tr>
+<td align="center">Week 8</td>
+<td align="center">HTML, CSS, JavaScript</td>
+</tr>
+<tr>
+<td align="center">Week 9</td>
+<td align="center">Flask</td>
+</tr>
+<tr>
+<td align="center">Week 10</td>
+<td align="center">Emoji</td>
+</tr>
+</tbody></table>
+<p>每次的課程影片約是 2 - 2.5 小時，會再配上與本週內容相關的習題。而且習題不是隨便做做就好，其實還蠻需要花時間去解題的。</p>
+<p>雖然對完全的初學者會額外需要花點力氣去理解，但相信只要跟著做作業，並把每一次的問題搞懂，也能從中嘗到學習程式的樂趣。</p>
 <!-- more  -->
 
 
-<h1 id="這裡看的到嗎"><a href="#這裡看的到嗎" class="headerlink" title="這裡看的到嗎???"></a>這裡看的到嗎???</h1>
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="http://example.com/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Holly">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Rubber Duck">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2022-06-18 20:40:00" itemprop="dateCreated datePublished" datetime="2022-06-18T20:40:00+08:00">2022-06-18</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
       
     </div>
@@ -351,7 +368,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -455,6 +472,17 @@
   
 
   
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://Rubber Duck.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
 
 </body>
 </html>
