@@ -113,3 +113,34 @@ deploy:
 
   branch: gh-pages
   message: "First Commit"
+
+# count
+symbols_count_time:
+  symbols: true # 文章字數統計顯示
+  time: true # 文章閱讀時間顯示
+  total_symbols: true # 網頁底部字數統計顯示
+  total_time: true # 網頁底部閱讀時間顯示
+  exclude_codeblock: false # 字數統計是否排除程式碼
+  awl: 2  # 平均文字長度，中文為 2, 英文為 5, 預設為 4
+  wpm: 275  # 一分鐘閱讀字數
+  suffix: "分鐘"
+
+# math
+markdown:
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
+    - markdown-it-emoji
+    - hexo-math
+
+# Emoji
+githubEmojis:
+  enable: true
+  className: github-emoji
+  unicode: true
+  styles:
+    display: inline
+    vertical-align: middle # Freemind适用
+  localEmojis:
